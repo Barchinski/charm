@@ -7,7 +7,7 @@ class Charm {
     this.renderer = "";
 
     //If the `renderingEngine` is Pixi, set up Pixi object aliases
-    if (renderingEngine.ParticleContainer && renderingEngine.Sprite) {
+    if (renderingEngine.particles.ParticleContainer && renderingEngine.Sprite) {
       this.renderer = "pixi";
     }
 
